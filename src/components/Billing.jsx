@@ -11,7 +11,7 @@ const Billing = () => (
       <div className="absolute z-[0] -left-1/2
       bottom-0 w-[50%] h-[50%] rounded-full pink__gradient"/>
     </div>
-    <div className={layout.sectionInfo}>
+    <div className={`${layout.sectionInfo} pl-10`}>
       <h2 className={styles.heading2}>Easily control your
       <br className="sm:block hidden"/>
       billing & invoicing </h2>
